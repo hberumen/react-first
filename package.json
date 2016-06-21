@@ -4,7 +4,8 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --host 0.0.0.0 --port 3000 --content-base src --inline --hot"
   },
   "author": "hberumen",
   "license": "ISC",
